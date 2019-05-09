@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Serenity Cucumber Test Template</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e3630167d6d590423186da95d8f912423ccd009bdb5620c958d1db70b75199ea.html">As An User I Can</a></span>
+                > <span class="truncate-60"><a
+                    href="306ba57e5cc20102c728fe6379250c8c7d7d62dddbd0c7f42269ea5bafbfbd73.html">Looking up the Search results of 'Adaptavist' </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="0272dadd83d6e6ac748d9a947522ca78b8873f5156f9bd38d6a0eb735ee5993b.html"><i class="fa fa-comments-o"></i> Epics</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-05-2019 20:17</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">As An User I Can </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Navigate to Google search page on any browser.Search for &quot;Adaptavist&quot;In the search result page, capture all the links containing &quot;Adaptavist&quot; and navigate to each of them and capture a screenshot of the landing page.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Looking up the Search results of 'Adaptavist'
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="af7138b7eabf63d07a0e316be359708998fd53732a2b77623f34665075094806.png" title=" Given the user is on the Google home page" width="1554"/>
+                <img src="af7138b7eabf63d07a0e316be359708998fd53732a2b77623f34665075094806.png" title=">  Is on the home page" width="1554"/>
+                <img src="af7138b7eabf63d07a0e316be359708998fd53732a2b77623f34665075094806.png" title=" Given the user is on the Google home page (completed)" width="1554"/>
+                <img src="dc0aa7b3b9edc72454765041540d37466ac0d0b18c6008fc83de76162bdae8b6.png" title=" When the user looks up the definition of the word 'Adaptavist'" width="1554"/>
+                <img src="dc0aa7b3b9edc72454765041540d37466ac0d0b18c6008fc83de76162bdae8b6.png" title=">  Looks for: Adaptavist" width="1554"/>
+                <img src="dc0aa7b3b9edc72454765041540d37466ac0d0b18c6008fc83de76162bdae8b6.png" title="> >  Enters: Adaptavist" width="1554"/>
+                <img src="e78ac0765da27f0493577f89aacc2ecf4be7c0d17219796e35712368206e94a1.png" title="> >  Starts search" width="1554"/>
+                <img src="e78ac0765da27f0493577f89aacc2ecf4be7c0d17219796e35712368206e94a1.png" title=">  Looks for: Adaptavist (completed)" width="1554"/>
+                <img src="e78ac0765da27f0493577f89aacc2ecf4be7c0d17219796e35712368206e94a1.png" title=" When the user looks up the definition of the word 'Adaptavist' (completed)" width="1554"/>
+                <img src="e78ac0765da27f0493577f89aacc2ecf4be7c0d17219796e35712368206e94a1.png" title=" Then they should see the definition 'Adaptavist'" width="1554"/>
+                <img src="e78ac0765da27f0493577f89aacc2ecf4be7c0d17219796e35712368206e94a1.png" title=">  Should see definition: Adaptavist" width="1554"/>
+                <img src="e78ac0765da27f0493577f89aacc2ecf4be7c0d17219796e35712368206e94a1.png" title=" Then they should see the definition 'Adaptavist' (completed)" width="1554"/>
+                <img src="b5b2dd9b7e9929633310cf778d05e94783abffe2377cf43d01252942079062f6.png" title=" When I capture all the links containing Adaptavist" width="1920"/>
+                <img src="b5b2dd9b7e9929633310cf778d05e94783abffe2377cf43d01252942079062f6.png" title=">  Collect links" width="1920"/>
+                <img src="b5b2dd9b7e9929633310cf778d05e94783abffe2377cf43d01252942079062f6.png" title=" When I capture all the links containing Adaptavist (completed)" width="1920"/>
+                <img src="b5b2dd9b7e9929633310cf778d05e94783abffe2377cf43d01252942079062f6.png" title=" And I navigate to each of them" width="1920"/>
+                <img src="b5b2dd9b7e9929633310cf778d05e94783abffe2377cf43d01252942079062f6.png" title=">  Navigate to each link" width="1920"/>
+                <img src="b5b2dd9b7e9929633310cf778d05e94783abffe2377cf43d01252942079062f6.png" title="> >  Generate link: https://www.adaptavist.com/" width="1920"/>
+                <img src="4b3c70bbb67fa8c2fcd69c4a88d0c2ffcaf679a48a005850b65cb6741f3d6109.png" title="> >  Click link: By.xpath: //a[@href='https://www.adaptavist.com/']" width="1920"/>
+                <img src="4b3c70bbb67fa8c2fcd69c4a88d0c2ffcaf679a48a005850b65cb6741f3d6109.png" title="> >  Generate link: https://www.adaptavist.com/contact/" width="1920"/>
+                <img src="f295a9b338d8721e8ac59483b6158dcc4b0dfe9fd85987e343fc3aa07ad4bb19.png" title="> >  Click link: By.xpath: //a[@href='https://www.adaptavist.com/contact/']" width="1920"/>
+                <img src="f64c49ff7da66e75311dda110c51e2550ab21aff8b9a451adc7739fcd40a922e.png" title="> >  Generate link: https://www.adaptavist.com/atlassian-apps/test-management-for-jira/" width="1920"/>
+                <img src="6598b637fa335a1eacaba6017f79d6522925bae7bd4da6c39c5403740d854aeb.png" title="> >  Click link: By.xpath: //a[@href='https://www.adaptavist.com/atlassian-apps/test-management-for-jira/']" width="1920"/>
+                <img src="c2a8a13649232f5af13f7e7c73532c23d52c14c91d9ac862c90f3987301dbc01.png" title="> >  Generate link: https://marketplace.atlassian.com/vendors/81/adaptavist" width="1920"/>
+                <img src="d89ada00f3ea7c7aa0554a969892844c1bebad3e0cb26c0928468d87cbd5ecc1.png" title="> >  Click link: By.xpath: //a[@href='https://marketplace.atlassian.com/vendors/81/adaptavist']" width="1920"/>
+                <img src="d89ada00f3ea7c7aa0554a969892844c1bebad3e0cb26c0928468d87cbd5ecc1.png" title="> >  Generate link: https://www.linkedin.com/company/adaptavist" width="1920"/>
+                <img src="fa2f0871d88e9476a999f7f9d127e3729e7d2840f8de0c3da9cfc668e32f862d.png" title="> >  Click link: By.xpath: //a[@href='https://www.linkedin.com/company/adaptavist']" width="1920"/>
+                <img src="c9d848268cb64500a6ba9d16fc09ac292d61827497fff99a178140eb49a9354c.png" title="> >  Generate link: https://www.youtube.com/channel/UCuOVhryUfdv4kXZT8oVF3cA" width="1920"/>
+                <img src="ba00466370b6c755a21cac29954d941cf745a512f250b5d90641d6261d4e05fb.png" title="> >  Click link: By.xpath: //a[@href='https://www.youtube.com/channel/UCuOVhryUfdv4kXZT8oVF3cA']" width="1920"/>
+                <img src="dfe609bdf85acccec8f43330e7c60b3333fdbadf9e9250d57115aac3c9b73db4.png" title="> >  Generate link: https://twitter.com/adaptavist" width="1920"/>
+                <img src="e53fc1e00645a32207fd2aba1e3d55c3861597c714ec1cdafb17e6dd219707e8.png" title="> >  Click link: By.xpath: //a[@href='https://twitter.com/adaptavist']" width="1920"/>
+                <img src="f815397bcfdf505c9f332e86dddf09c4acab1873cc17399d7878986b42c0c9e4.png" title="> >  Generate link: https://hu-hu.facebook.com/adaptavist" width="1920"/>
+                <img src="827a6d774846bf68e1d05afd0c0bc8d0d4c84a90330692390e070ebfa1f872c4.png" title="> >  Click link: By.xpath: //a[@href='https://hu-hu.facebook.com/adaptavist']" width="1920"/>
+                <img src="9faba29189d3de0dc9081abeec470e98ae8939e5cdecc622b94b07f0973225c9.png" title="> >  Generate link: https://www.facebook.com/adaptavist/" width="1920"/>
+                <img src="3d1ef73c30d9e66731652c677114a0517060330aeac9ad18f05153f97bc89de4.png" title="> >  Click link: By.xpath: //a[@href='https://www.facebook.com/adaptavist/']" width="1920"/>
+                <img src="3d1ef73c30d9e66731652c677114a0517060330aeac9ad18f05153f97bc89de4.png" title=">  Navigate to each link (completed)" width="1920"/>
+                <img src="3d1ef73c30d9e66731652c677114a0517060330aeac9ad18f05153f97bc89de4.png" title=" And I navigate to each of them (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.20</span>
+</div>
+</body>
+</html>
